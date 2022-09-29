@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Home">
+    <children>
+        <AnchorPane layoutY="54.0" prefHeight="345.0" prefWidth="700.0" style="-fx-background-color: #C0C0C0;">
+            <children>
+              <Button fx:id="Workers" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Рабочии" />
+            <Button fx:id="Post" layoutX="11.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Должности" />
+            <Button fx:id="Department" layoutX="11.0" layoutY="101.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Отделы" />
+            <Button fx:id="Guide" layoutX="11.0" layoutY="141.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Руководство" />
+            <Button fx:id="Reg1111" layoutX="11.0" layoutY="181.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Структура организации" />
+            <Button fx:id="Reg11111" layoutX="10.0" layoutY="221.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Средняя зарплата" />
+            <Button fx:id="Reg111111" layoutX="9.0" layoutY="260.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="ТОП 10" />
+            <Button fx:id="Reg1111111" layoutX="9.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="115.0" style="-fx-background-color: #FFFFFF;" text="Загрузка и выгрузка" />
+            <AnchorPane layoutX="137.0" layoutY="1.0" prefHeight="345.0" prefWidth="562.0" style="-fx-background-color: #C0C0C0;">
+               <children>
+                  <TextField fx:id="Surname" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="68.0" promptText="Фамилия" />
+                  <TextField fx:id="Middle_name" layoutX="166.0" layoutY="14.0" prefHeight="25.0" prefWidth="59.0" promptText="Очество" />
+                  <TextField fx:id="Name" layoutX="90.0" layoutY="14.0" prefHeight="25.0" prefWidth="68.0" promptText="Имя" />
+                  <TextField fx:id="Post1" layoutX="246.0" layoutY="14.0" prefHeight="25.0" prefWidth="81.0" promptText="Должность" />
+                  <TextField fx:id="Separate" layoutX="340.0" layoutY="14.0" prefHeight="25.0" prefWidth="81.0" promptText="Отдел" />
+                  <TextField fx:id="Chief" layoutX="433.0" layoutY="14.0" prefHeight="25.0" prefWidth="115.0" promptText="ФИО Начальника" />
+                  <Button fx:id="Search" layoutX="457.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #FFFFFF;" text="Поиск" />
+                  <Button fx:id="Add_employee" layoutX="14.0" layoutY="49.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #FFFFFF;" text="Добавить сотрудника" />
+                  <AnchorPane layoutY="83.0" prefHeight="262.0" prefWidth="562.0" style="-fx-background-color: #FFFFFF;" />
+               </children>
+            </AnchorPane>
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="24.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M&amp;K" wrappingWidth="114.80337524414062">
+            <font>
+                <Font name="Clarendon Blk BT Black" size="32.0" />
+            </font>
+        </Text>
+      <Button fx:id="Exit" layoutX="608.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #fafafa;" text="Выход" />
+    </children>
+</AnchorPane>
