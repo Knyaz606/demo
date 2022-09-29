@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Registr">
+    <children>
+        <AnchorPane layoutY="54.0" prefHeight="345.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="signUpLastName" layoutX="424.0" layoutY="63.0" prefHeight="38.0" prefWidth="183.0" promptText="Фамилия" />
+                <Button fx:id="Register2" layoutX="261.0" layoutY="257.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" text="Зарегистрироваться" />
+            <TextField fx:id="signUpUser" layoutX="102.0" layoutY="63.0" prefHeight="38.0" prefWidth="183.0" promptText="Имя" />
+            <CheckBox fx:id="Maleg" layoutX="313.0" layoutY="65.0" mnemonicParsing="false" text="Мужской" />
+            <CheckBox fx:id="Femaleg" layoutX="314.0" layoutY="131.0" mnemonicParsing="false" text="Женский" />
+            <PasswordField fx:id="passwordfield" layoutX="424.0" layoutY="121.0" prefHeight="38.0" prefWidth="183.0" promptText="Пароль" />
+            <TextField fx:id="loginFild" layoutX="102.0" layoutY="121.0" prefHeight="38.0" prefWidth="183.0" promptText="Логин" />
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="24.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M&amp;K" wrappingWidth="114.80337524414062">
+            <font>
+                <Font name="Clarendon Blk BT Black" size="32.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
